@@ -1,12 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import { HomeLayout } from "@/home/layout/HomeLayout";
+import { authRoutes } from "@/auth/routes/routes";
+import { homeRoutes } from "@/home/routes/routes";
 
-
-export const router = createBrowserRouter([
-    {
-        path: '/',
-        element: <HomeLayout/>
-
-    }
-])
-
+export const router = createBrowserRouter([...homeRoutes, ...authRoutes]);
