@@ -1,9 +1,13 @@
+import { ModeToggle } from "@/components/mode-toggle";
+
 interface Props {
 
 }
 
 export const Home = ({}: Props) => {
   return (
-    <div>Home</div>
+    <div>
+      <ModeToggle/>
+    </div>
   );
 };
