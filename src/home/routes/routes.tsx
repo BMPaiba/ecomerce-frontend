@@ -1,4 +1,4 @@
-import { HomeLayout } from "../layout/HomeLayout";
+import { HomeLayout } from "../layout/home-layout";
 import { Home } from "../pages/Home";
 
 export const homeRoutes = [

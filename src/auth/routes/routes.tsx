@@ -1,4 +1,4 @@
-import { AuthLayout } from "../layout/AuthLayout";
+import { AuthLayout } from "../layout/auth-layout";
 import { Login } from "../pages/login";
 import { Register } from "../pages/register";
 
